@@ -1,0 +1,51 @@
+name: Rotate Daily Header
+
+on:
+  schedule:
+    # Runs everyday at midnight UTC (05:30 AM IST)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Rotate Header Banner
+        run: |
+          # Find all image files in images/headers/
+          mapfile -t BANNERS < <(find images/headers -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.gif" \) | sort)
+          TOTAL=${#BANNERS[@]}
+
+          echo "Found $TOTAL banner(s) in pool."
+
+          if [ "$TOTAL" -gt 0 ]; then
+            # Calculate daily index using day of year
+            DAY_OF_YEAR=$(date +%j)
+            INDEX=$(( (10#$DAY_OF_YEAR) % TOTAL ))
+            SELECTED="${BANNERS[$INDEX]}"
+
+            echo "Day of Year: $DAY_OF_YEAR | Index: $INDEX"
+            echo "Applying banner: $SELECTED"
+
+            cp "$SELECTED" images/header.jpg
+
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add images/header.jpg
+
+            # Only commit if the header actually changed
+            if ! git diff --staged --quiet; then
+              git commit -m "chore: rotate daily header banner [skip ci]"
+              git push
+            else
+              echo "Header is already up to date."
+            fi
+          else
+            echo "No banners found in images/headers/ directory."
+          fi
