@@ -88,5 +88,5 @@
 ---
 
 <div align="center">
-  <sub>fx.rw</sub>
+  <sub>Thanks for reading! Have a great day</sub>
 </div>
