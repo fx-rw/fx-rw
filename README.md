@@ -32,24 +32,7 @@
 ### // stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" height="20" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black" height="20" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" height="20" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-61dafb?style=flat-square&logo=react&logoColor=black" height="20" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" height="20" alt="Next.js" />
-  <img src="https://img.shields.io/badge/HTML5-e34f26?style=flat-square&logo=html5&logoColor=white" height="20" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572b6?style=flat-square&logo=css3&logoColor=white" height="20" alt="CSS3" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" height="20" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" height="20" alt="Flask" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169e1?style=flat-square&logo=postgresql&logoColor=white" height="20" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-dc382d?style=flat-square&logo=redis&logoColor=white" height="20" alt="Redis" />
-  <img src="https://img.shields.io/badge/MongoDB-47a248?style=flat-square&logo=mongodb&logoColor=white" height="20" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/SQLite-003b57?style=flat-square&logo=sqlite&logoColor=white" height="20" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white" height="20" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-fcc624?style=flat-square&logo=linux&logoColor=black" height="20" alt="Linux" />
-  <img src="https://img.shields.io/badge/Git-f05032?style=flat-square&logo=git&logoColor=white" height="20" alt="Git" />
+  <img src="https://skillicons.dev/icons?i=py,js,ts,html,css,react,nextjs,fastapi,flask,postgres,redis,mongodb,sqlite,docker,linux,git&theme=dark" alt="Tech Stack" />
 </p>
 
 <br/>
