@@ -32,7 +32,11 @@
 ### // stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,ts,html,css,react,nextjs,fastapi,flask,postgres,redis,mongodb,sqlite,docker,linux,git&theme=dark" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=py&theme=dark" alt="tier 1" /><br/>
+  <img src="https://skillicons.dev/icons?i=ts,js&theme=dark" alt="tier 2" /><br/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,fastapi&theme=dark" alt="tier 3" /><br/>
+  <img src="https://skillicons.dev/icons?i=html,css,postgres,redis&theme=dark" alt="tier 4" /><br/>
+  <img src="https://skillicons.dev/icons?i=mongodb,sqlite,docker,linux,git&theme=dark" alt="tier 5" />
 </p>
 
 <br/>
