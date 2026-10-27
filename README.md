@@ -12,12 +12,12 @@
 
 <img align="right" width="150" src="./images/about.jpg" alt="Profile Image" />
 
-- **name:** fx.rw (Avin)
-- **age:** 17
-- **location:** India
-- **status:** student
-- **languages:** english, hindi
-- **interests:** anime, travelling, chess and manga
+- **Name:** fx.rw (Avin)
+- **Age:** 17
+- **Location:** India
+- **Status:** student
+- **Languages:** english, hindi
+- **Interests:** anime, travelling, chess and manga
 
 <br clear="right"/>
 <br/>
