@@ -45,11 +45,6 @@
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=fx-rw&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fx-rw&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117&layout=compact" alt="Top Languages" />
-
-<br/><br/>
-
 <img src="https://streak-stats.demolab.com/?user=fx-rw&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub Streak" />
 
 </div>
