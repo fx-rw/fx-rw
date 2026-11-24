@@ -19,7 +19,7 @@ jobs:
       - name: Rotate Header Banner
         run: |
           # Find all image files in images/headers/
-          mapfile -t BANNERS < <(find images/headers -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.gif" \) | sort)
+          mapfile -t BANNERS < <(find images/headers -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.gif" -o -iname "*.avif" \) | sort)
           TOTAL=${#BANNERS[@]}
 
           echo "Found $TOTAL banner(s) in pool."
